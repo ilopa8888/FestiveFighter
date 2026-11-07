@@ -1,0 +1,25 @@
+
+{
+  "files": [
+    {
+      "type": "image",
+      "key": "arena_background",
+      "url": "src/assets/arena-background/arena-battle-diwali.jpg"
+    },
+    {
+      "type": "image",
+      "key": "login_arena",
+      "url": "src/assets/login-arena/login-arena.jpg"
+    },
+    {
+      "type": "image",
+      "key": "weapon",
+      "url": "src/assets/wepo/wepe.png"
+    },
+    {
+      "type": "image",
+      "key": "sword_effect",
+      "url": "src/assets/effects/sword-effects.gif"
+    }
+  ]
+}
