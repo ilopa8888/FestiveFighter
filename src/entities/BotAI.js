@@ -180,7 +180,7 @@ export default class BotAI {
       threat.projectile.object.x,
       threat.projectile.object.y,
       fighter,
-      12
+      7
     );
 
     if (
@@ -192,7 +192,7 @@ export default class BotAI {
       threat.projectile.botParryAttempted = true;
 
       if (Math.random() < 0.5) {
-        scene.botParryUntil = time + 260;
+        scene.botParryUntil = time + 80;
         scene.botParryCooldownUntil = time + 1000;
         fighter.setPose("parry", 60);
         scene.tryReflectProjectiles(time);
