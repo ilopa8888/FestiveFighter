@@ -20,7 +20,6 @@ export default class BootScene extends Phaser.Scene {
   }
 
   preload() {
-
     const pack = {
       files: assetManifest.files.map(asset => ({
         ...asset,
