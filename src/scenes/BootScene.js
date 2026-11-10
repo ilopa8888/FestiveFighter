@@ -20,7 +20,7 @@ export default class BootScene extends Phaser.Scene {
   }
 
   preload() {
-    // The manifest lists asset types and keys; Vite-resolved URLs supply the actual file paths.
+
     const pack = {
       files: assetManifest.files.map(asset => ({
         ...asset,
