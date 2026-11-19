@@ -47,6 +47,12 @@ npm run preview  # Preview the production build
 npm test         # Run the Node.js test suite
 ```
 
+## Play Online
+
+You can play the game directly in your web browser without downloading or installing anything.
+https://festivefighter.netlify.app/
+Simply open the link, wait for the game to load, and enjoy playing!
+
 ## Project layout
 
 - `src/scenes/` — boot, menu, shop, and match scenes
